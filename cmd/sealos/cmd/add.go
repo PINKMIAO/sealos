@@ -44,7 +44,7 @@ func newAddCmd() *cobra.Command {
 	}
 	var addCmd = &cobra.Command{
 		Use:     "add",
-		Short:   "Add nodes into cluster",
+		Short:   "Add nodes into cluster(new version)",
 		Args:    cobra.NoArgs,
 		Example: exampleAdd,
 		RunE: func(cmd *cobra.Command, args []string) error {

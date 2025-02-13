@@ -28,7 +28,7 @@ func newApplyCmd() *cobra.Command {
 	// applyCmd represents the apply command
 	var applyCmd = &cobra.Command{
 		Use:     "apply",
-		Short:   "Run cloud images within a kubernetes cluster with Clusterfile",
+		Short:   "Run cloud images within a kubernetes cluster with Clusterfile(new version)",
 		Example: `sealos apply -f Clusterfile`,
 		Args:    cobra.NoArgs,
 		RunE: func(cmd *cobra.Command, args []string) error {
