@@ -6,7 +6,7 @@ on:
       sealosVersion:
         type: string
         description: The version of sealos to save
-        default: 4.1.7
+        default: 5.0.0
       artifact_name:
         type: string
         description: The name of the artifact to save
